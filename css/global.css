@@ -1,0 +1,49 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #0B132A;
+}
+
+a {
+    text-decoration: none;
+    color: #505f98;
+}
+
+li {
+    display: block;
+}
+
+.container {
+    margin: 42.38px auto;
+    max-width: 1140px;
+}
+
+.container-red-button {
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+}
+
+.red-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #F53838;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    border:none;
+    z-index: 100;
+    margin-top: 67.5px;
+}
+
+.red-button-shadow {
+    width: 211.83px;
+    height: 60px;
+    background: rgba(245, 56, 56, 0.65);
+    filter: blur(54px);
+    border-radius: 10px;
+    z-index: 50;
+    margin-top: -35px;
+}

@@ -1,0 +1,32 @@
+.hero__inner {
+    width: 555px;
+}
+
+.hero__title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+    margin-top: 152px;
+}
+
+.hero__paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-top: 20px;
+}
+
+.container-hero {
+    margin: 42.38px auto;
+    max-width: 1140px;
+    display: flex;
+}
+
+.hero__ill1 {
+    width: 611.24px;
+    height: 406.08px;
+    margin-top: 121px;
+    margin-left: 40.76px;
+}

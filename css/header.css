@@ -1,0 +1,48 @@
+.header {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav ul {
+    display: flex; 
+}
+
+.header__nav-item {
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header__title {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.header__logo {
+    margin-right: 10px;
+}
+
+.header__sign-in {
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: white;
+    border: 0px
+}
+
+.header__sign-up {
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53855;
+}

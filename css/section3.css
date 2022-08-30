@@ -1,0 +1,130 @@
+.container-section3 {
+    margin: 0px auto;
+    max-width: 1140px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.section3__title {
+    width: 372.35px;
+    height: 100px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+    margin-top: 71px;
+    margin-bottom: 0px;
+}
+
+.section3__paragraph {
+    width: 426.27px;
+    height: 60px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    margin-top: 10px;
+}
+
+.reviews {
+    display: flex;
+    /* align-items: center; */
+}
+
+.review {
+    box-sizing: border-box;
+    width: 350.46px;
+    height: 230px;
+    background: #FFFFFF;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+    padding: 30px 26px;
+    margin: 0px 22px;
+}
+
+.review-g {
+    box-sizing: border-box;
+    width: 350.46px;
+    height: 230px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 30px 26px;
+    margin: 0px 22px;
+}
+
+.full-reviewer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    
+}
+
+.section3__reviewer {
+    display: flex ;
+    align-items: center;
+    height: 50px;
+}
+
+.prof-pic {
+    width: 50px;
+    height: 50px;
+}
+
+.section3_reviewer-info {
+    margin-left: 12.5px;
+}
+
+.reviewer-name {
+    width: 121.67px;
+    height: 18px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    text-align: center;
+    color: #0B132A; 
+    margin: 0px;
+}
+
+.reviewer-location {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}   
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20.127939224243164px;
+
+}
+
+.rating-text {
+    margin: 0;
+}
+
+.star {
+    height: 20.127939224243164px;
+    width: 20.56916618347168px;
+    margin-left: 10px;
+}
+
+.reviewer-comment {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0B132A;
+}
