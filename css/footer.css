@@ -6,6 +6,12 @@
     
 }
 
+@media screen and (max-width: 768px) {
+    .footer-container {
+        padding: 0 40px;
+    }
+}
+
 .footer {
     max-width: 1440px;
     align-items: center;
@@ -38,4 +44,19 @@
 
 .social-networks {
     margin-bottom: -30px;
+}
+
+@media screen and (max-width: 768px) {
+    .social-networks {
+        display: none;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center; 
+    }
+
+    .footer__title {
+        margin-left: 40px;
+    }
 }

@@ -16,11 +16,14 @@
 <section class="hero">
     <div class="container">
     <header class="header">
+        <div class="header__menu" onclick="toggleMenu()">
+            <img src="images\Hamburger_icon.svg" alt="Menu icon">
+        </div>
         <div class="header__title">
             <img class="header__logo" src="images\Vector.svg" width="35px" height="36.23px">
             <p>Lasles<b>VPN</b></p>
         </div>
-        <nav class="header__nav">
+        <nav id="nav-links"  class="header__nav">
             <ul>
                 <li class="header__nav-item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">About</a></li>
                 <li class="header__nav-item"><a href="">Features</a></li>
@@ -29,7 +32,7 @@
                 <li class="header__nav-item"><a href="">Help</a></li>
             </ul>
         </nav>
-        <div>
+        <div class="header__buttons">
             <button class="header__sign-in">Sign in</button>
             <button class="header__sign-up">Sign up</button>
         </div>
@@ -53,7 +56,7 @@
     <div class="container-features">
         <img class="features__ill2" src="images\ill 2.svg" alt="">
         <div class="features__inner">
-            <h1 class="features__title">We Provide Many Features You Can Use</h1>
+            <h2 class="features__title">We Provide Many Features You Can Use</h2>
             <p class="features__paragraph">You can explore the features that we provide with fun and have their own functions each feature.</p>
             <ul class="features__ul">
                 <li class="features__item"> <img src="images\check-circle.svg"> Powerfull online protection.</li>
@@ -66,7 +69,7 @@
 </section>
 <section class="section3">
     <div class="container-section3">
-        <h1 class="section3__title">Trusted by Thousands of Happy Customer</h1>
+        <h2 class="section3__title">Trusted by Thousands of Happy Customer</h2>
         <p class="section3__paragraph">These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</p>
         <div class="reviews">
             <div class="review">
@@ -123,7 +126,7 @@
 <section class="subscribe">
     <div class="container-subscribe">
         <div class="subscribe__inner">
-            <h1 class="subscribe__title">Subscribe Now for Get Special Features!</h1>
+            <h2 class="subscribe__title">Subscribe Now for Get Special Features!</h2>
             <p class="subscribe__paragraph">Let's subscribe with us and find the fun.</p>
         </div>
         <div class="sub-container-red-button">
@@ -150,7 +153,9 @@
             </div>
         </footer>
     </div>
-</section> 
+</section>
+
+<script src="js\main.js"></script>
 </body>
 
 </html>

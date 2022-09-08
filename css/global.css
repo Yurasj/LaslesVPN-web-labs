@@ -3,6 +3,12 @@ body {
     color: #0B132A;
 }
 
+@media screen and (max-width: 1024px) {
+    body {
+        text-align: center;
+    }
+}
+
 a {
     text-decoration: none;
     color: #505f98;
@@ -15,6 +21,12 @@ li {
 .container {
     margin: 42.38px auto;
     max-width: 1140px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 40px;
+    }
 }
 
 .container-red-button {
@@ -34,8 +46,17 @@ li {
     width: 250px;
     height: 60px;
     border:none;
+    outline: none;
     z-index: 100;
     margin-top: 67.5px;
+    box-shadow: inset 0 0 0 0 #ffae00;
+    transition: ease-in-out 0.3s ;
+}
+
+.red-button:hover {
+    box-shadow: inset 250px 0 0 0 #ffae00;
+    cursor: pointer;
+    color: #0B132A;
 }
 
 .red-button-shadow {
